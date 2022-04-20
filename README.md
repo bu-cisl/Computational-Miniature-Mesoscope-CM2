@@ -20,6 +20,7 @@ Fluorescence microscopes are indispensable to biology and neuroscience. The need
 1) Zemax simulation file
 
 After download the pre-trained weights file, put it under the root directory and run [demo.py](demo.py).
+
 2) Algorithm
 
 
