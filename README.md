@@ -19,7 +19,7 @@ Fluorescence microscopes are indispensable to biology and neuroscience. The need
 ### How to use
 1) Zemax simulation file
 
-   After downloading the "Zemax_models" folder, put "CM2_V1_opensource.CFG" under the directory "Zemax\Configs", put "cm2_coating_profiles_ver2.DAT" under the      directory Zemax\Coatings, put "gfp_emission.spcd" and "led_spectrum_interp.spcd" under the directory "\Zemax\Objects\Sources\Spectrum Files", put "led_housing.stl" "mla_housing.stl" and "zemax_mla_aperture.stl" under the directory "Zemax\Objects\CAD Files", and run "CM2_V1_opensource.zos".
+   After downloading the "Zemax_models" folder, put "CM2_V1_opensource.CFG" under the directory "Zemax\Configs", put "cm2_coating_profiles_ver2.DAT" under the      directory "Zemax\Coatings", put "gfp_emission.spcd" and "led_spectrum_interp.spcd" under the directory "Zemax\Objects\Sources\Spectrum Files", put "led_housing.stl" "mla_housing.stl" and "zemax_mla_aperture.stl" under the directory "Zemax\Objects\CAD Files", and run "CM2_V1_opensource.zos".
 
 2) Algorithm
 
