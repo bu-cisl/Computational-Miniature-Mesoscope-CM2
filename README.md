@@ -1,58 +1,27 @@
 # Computational Miniature Mesoscope (CM2)
-v1 hardware design: cad files, zmx files, spectra and coating files
-v1 algorithm: a toy demo (use downsampled data and PSFs)
-
-Coming soon...
-# Deep-Speckle-Correlation
-Python implementation of paper: **Deep speckle correlation: a deep learning approach towards scalable imaging through scattering media**. We provide model, pre-trained weights(download link available below), test data and a quick demo.
+We provide 1) v1 hardware design: cad files, zmx files, spectra and coating files and 2) v1 algorithm: a toy demo (use downsampled data and PSFs).
 
 
 ### Citation
 If you find this project useful in your research, please consider citing our paper:
 
-[**Yunzhe Li, Yujia Xue, and Lei Tian, "Deep speckle correlation: a deep learning approach toward scalable imaging through scattering media," Optica 5, 1181-1190 (2018)**](https://www.osapublishing.org/optica/abstract.cfm?uri=optica-5-10-1181)
+[**Yujia Xue, Ian G. Davison, David A. Boas, and Lei Tian. "Single-shot 3D wide-field fluorescence imaging with a Computational Miniature Mesoscope." Science advances 6, no. 43 (2020): eabb7508.**](https://www.science.org/doi/full/10.1126/sciadv.abb7508)
 
 
 ### Abstract
-Imaging through scattering is an important, yet challenging problem. Tremendous progress has been made by exploiting the deterministic input-output transmission matrix for a fixed medium. However, this one-for-one approach is highly susceptible to speckle decorrelations -- small perturbations to the scattering medium lead to model errors and severe degradation of the imaging performance. Our goal here is to develop a new framework that is highly scalable to both medium perturbations and measurement requirement.  To do so, we propose a statistical one-for-all deep learning technique that encapsulates a wide range of statistical variations for the model to be resilient to speckle decorrelations. Specifically, we develop a convolutional neural network (CNN) that is able to learn the statistical information contained in the speckle intensity patterns captured on a set of diffusers having the same macroscopic parameter. We then show for the first time, to the best of our knowledge, that the trained CNN is able to generalize and make high-quality object prediction through an entirely different set of  diffusers of the same class. Our work paves the way to a highly scalable deep learning approach for imaging through scattering media. 
+Fluorescence microscopes are indispensable to biology and neuroscience. The need for recording in freely behaving animals has further driven the development in miniaturized microscopes (miniscopes). However, conventional microscopes/miniscopes are inherently constrained by their limited space-bandwidth product, shallow depth of field (DOF), and inability to resolve three-dimensional (3D) distributed emitters. Here, we present a Computational Miniature Mesoscope (CM2) that overcomes these bottlenecks and enables single-shot 3D imaging across an 8 mm by 7 mm field of view and 2.5-mm DOF, achieving 7-μm lateral resolution and better than 200-μm axial resolution. The CM2 features a compact lightweight design that integrates a microlens array for imaging and a light-emitting diode array for excitation. Its expanded imaging capability is enabled by computational imaging that augments the optics by algorithms. We experimentally validate the mesoscopic imaging capability on 3D fluorescent samples. We further quantify the effects of scattering and background fluorescence on phantom experiments.
 
 <p align="center">
-  <img src="/images/img1.png">
+  <img src="/images/Cover.png">
 </p>
-
-
-### Requirements
-python 3.6
-
-keras 2.1.2
-
-tensorflow 1.4.0
-
-numpy 1.14.3
-
-h5py 2.7.1
-
-matplotlib 2.1.2
-
-
-### CNN architecture
-<p align="center">
-  <img src="/images/img2.png">
-</p>
-
-
-### Download pre-trained weights
-You can download pre-trained weights from [here](https://www.dropbox.com/s/e1qcrv9o3i0h8z3/pretrained_weights.hdf5?dl=0)
 
 
 ### How to use
+1) Zemax simulation file
+
 After download the pre-trained weights file, put it under the root directory and run [demo.py](demo.py).
+2) Algorithm
 
-
-### Results
-<p align="center">
-  <img src="/images/img3.png">
-</p>
 
 
 ## License
