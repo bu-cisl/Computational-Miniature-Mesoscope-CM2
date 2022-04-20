@@ -12,7 +12,7 @@ If you find this project useful in your research, please consider citing our pap
 Fluorescence microscopes are indispensable to biology and neuroscience. The need for recording in freely behaving animals has further driven the development in miniaturized microscopes (miniscopes). However, conventional microscopes/miniscopes are inherently constrained by their limited space-bandwidth product, shallow depth of field (DOF), and inability to resolve three-dimensional (3D) distributed emitters. Here, we present a Computational Miniature Mesoscope (CM2) that overcomes these bottlenecks and enables single-shot 3D imaging across an 8 mm by 7 mm field of view and 2.5-mm DOF, achieving 7-μm lateral resolution and better than 200-μm axial resolution. The CM2 features a compact lightweight design that integrates a microlens array for imaging and a light-emitting diode array for excitation. Its expanded imaging capability is enabled by computational imaging that augments the optics by algorithms. We experimentally validate the mesoscopic imaging capability on 3D fluorescent samples. We further quantify the effects of scattering and background fluorescence on phantom experiments.
 
 <p align="center">
-  <img src="/images/Cover.png">
+  <img src="/Images/Cover.png">
 </p>
 
 
