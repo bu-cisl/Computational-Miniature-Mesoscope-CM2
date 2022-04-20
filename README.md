@@ -23,7 +23,7 @@ Fluorescence microscopes are indispensable to biology and neuroscience. The need
 
 <p align="center">
     <img src="/Images/CAD.PNG">
-  <img src="/Images/Zemax.PNG">
+    <img src="/Images/Zemax.PNG">
 </p>
 
 2) Algorithm
