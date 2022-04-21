@@ -21,7 +21,7 @@ Fluorescence microscopes are indispensable to biology and neuroscience. The need
 1) Hardware assemble
   The directory 'CAD_models' contains the CAD files of the CM<sup>2</sup>'s LED housing and microlens array housing. Both CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides an assembly of the CM<sup>2</sup> device shown as below (note that the sensor is not to-scale).
 <p align="center">
-  <img src="/Images/CAD.PNG"width=800>
+  <img src="/Images/CAD.PNG"width=600>
 </p>
 2) Zemax simulation
 
