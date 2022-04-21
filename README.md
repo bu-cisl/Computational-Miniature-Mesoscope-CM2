@@ -1,6 +1,6 @@
 # Computational Miniature Mesoscope (CM<sup>2</sup>)
 This is an open source repository of the Computational Miniature Mesoscope ([**CM<sup>2</sup>**](https://www.science.org/doi/full/10.1126/sciadv.abb7508)) project in the Computatioanl Imaging Systems Lab ([**CISL**](https://sites.bu.edu/tianlab/)) at Boston University. We aim to develop next-generation “wearable” computational fluorescence microscope that achieves a centimeter-scale field-of-view (FOV) and micron-scale resolution with single-shot 3D imaging capability.
-In this repository, we provide: 1) the hardware design of the CM2 device including 3D printable CAD files of the LED and microlens array housing; 2) the Zemax models of the CM<sup>2</sup> system including the ZMX files, spectra data and coating profile; 3) the ADMM-based 3D deconvolution algorithm with calibrated 3D PSFs and sample measurements.
+In this repository, we provide: 1) the hardware design of the CM<sup>2</sup> device including 3D printable CAD files of the LED and microlens array housing; 2) the Zemax models of the CM<sup>2</sup> system including the ZMX files, spectra data and coating profile; 3) the ADMM-based 3D deconvolution algorithm with calibrated 3D PSFs and sample measurements.
 
 
 
@@ -11,19 +11,15 @@ If you find this project useful in your research, please consider citing our pap
 
 
 ### Abstract
-Fluorescence microscopes are indispensable to biology and neuroscience. The need for recording in freely behaving animals has further driven the development in miniaturized microscopes (miniscopes). However, conventional microscopes/miniscopes are inherently constrained by their limited space-bandwidth product, shallow depth of field (DOF), and inability to resolve three-dimensional (3D) distributed emitters. Here, we present a Computational Miniature Mesoscope (CM2) that overcomes these bottlenecks and enables single-shot 3D imaging across an 8 mm by 7 mm field of view and 2.5-mm DOF, achieving 7-μm lateral resolution and better than 200-μm axial resolution. The CM2 features a compact lightweight design that integrates a microlens array for imaging and a light-emitting diode array for excitation. Its expanded imaging capability is enabled by computational imaging that augments the optics by algorithms. We experimentally validate the mesoscopic imaging capability on 3D fluorescent samples. We further quantify the effects of scattering and background fluorescence on phantom experiments.
+Fluorescence microscopes are indispensable to biology and neuroscience. The need for recording in freely behaving animals has further driven the development in miniaturized microscopes (miniscopes). However, conventional microscopes/miniscopes are inherently constrained by their limited space-bandwidth product, shallow depth of field (DOF), and inability to resolve three-dimensional (3D) distributed emitters. Here, we present a Computational Miniature Mesoscope (CM<sup>2</sup>) that overcomes these bottlenecks and enables single-shot 3D imaging across an 8 mm by 7 mm field of view and 2.5-mm DOF, achieving 7-μm lateral resolution and better than 200-μm axial resolution. The CM<sup>2</sup> features a compact lightweight design that integrates a microlens array for imaging and a light-emitting diode array for excitation. Its expanded imaging capability is enabled by computational imaging that augments the optics by algorithms. We experimentally validate the mesoscopic imaging capability on 3D fluorescent samples. We further quantify the effects of scattering and background fluorescence on phantom experiments.
 
 <p align="center">
   <img src="/Images/Cover.PNG">
 </p>
 
-
-### Device Overview
-
-
 ### How to use
 1) Hardware assemble
-  The directory 'CAD_models' contains the CAD files of the CM2's LED housing and microlens array housing. Both CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides an assembly of the CM2 device shown as below (note that the sensor is not to-scale).
+  The directory 'CAD_models' contains the CAD files of the CM<sup>2</sup>'s LED housing and microlens array housing. Both CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides an assembly of the CM<sup>2</sup> device shown as below (note that the sensor is not to-scale).
 <p align="center">
   <img src="/Images/CAD.PNG"width=800>
 </p>
