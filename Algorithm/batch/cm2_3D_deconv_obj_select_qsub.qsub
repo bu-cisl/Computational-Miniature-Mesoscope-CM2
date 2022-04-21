@@ -1,0 +1,31 @@
+#!/bin/bash -l
+
+# echo "$tau_tv $tau_l1 $obj_idx" > output.txt
+
+# Specify the project name
+#$-P tianlabdl
+
+# Specify the time limit
+#$-l h_rt=8:00:00
+
+# Job Name
+# -N Rg_jobname
+
+# Send email at the end of the job
+#$-m n
+
+# Join error and output streams
+#$-j y
+
+# Ouput can be appended to the log file
+# -o Rg_jobname
+
+# Specify the memory requirements
+#$-l mem_per_core=8G
+
+# Specify number of cores
+#$-pe omp 16
+module load matlab/2018b
+
+#Run the program | mu
+matlab -nodisplay -r "cm2_3D_deconv_obj_select($tau_tv, $tau_l1, $obj_idx)"
