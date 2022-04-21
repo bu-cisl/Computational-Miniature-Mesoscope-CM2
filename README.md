@@ -1,5 +1,7 @@
-# Computational Miniature Mesoscope (CM2)
-We provide 1) v1 hardware design: cad files, zmx files, spectra and coating files and 2) v1 algorithm: a toy demo (use downsampled data and PSFs).
+# Computational Miniature Mesoscope (CM<sup>2</sup>)
+This is an open source repository of the Computational Miniature Mesoscope ([**CM<sup>2</sup>**](https://www.science.org/doi/full/10.1126/sciadv.abb7508)) project in the Computatioanl Imaging Systems Lab ([**CISL**](https://sites.bu.edu/tianlab/)) at Boston University. We aim to develop next-generation “wearable” computational fluorescence microscope that achieves a centimeter-scale field-of-view (FOV) and micron-scale resolution with single-shot 3D imaging capability.
+In this repository, we provide: 1) the hardware design of the CM2 device including 3D printable CAD files of the LED and microlens array housing; 2) the Zemax models of the CM<sup>2</sup> system including the ZMX files, spectra data and coating profile; 3) the ADMM-based 3D deconvolution algorithm with calibrated 3D PSFs and sample measurements.
+
 
 
 ### Citation
@@ -39,6 +41,7 @@ Fluorescence microscopes are indispensable to biology and neuroscience. The need
 
 
 ### Contact
-For further information, please contact grhu@bu.edu or leitian@bu.edu
+For further information, please feel free to contact Guorong Hu (grhu@bu.edu) or Prof. Lei Tian (leitian@bu.edu).
+
 ## License
 This project is licensed under the terms of the MIT license. see the [LICENSE](LICENSE) file for details
