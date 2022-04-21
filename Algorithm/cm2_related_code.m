@@ -14,7 +14,7 @@ x_corr = @(x,y) crop2d(Ft2D(F2D(pad2d(unit_norm(x))).*conj(F2D(pad2d(unit_norm(y
 linear_normalize = @(x) (x - min(x(:)))./(max(x(:))-min(x(:)));
 
 %% load 3d psfs data
-load('data/downsampled_3d_psfs.mat');
+load('downsampled_3d_psfs.mat');
 
 %% down sample to further reduce the scale
 psfs = psfs_ds(:,:,81:320); 
