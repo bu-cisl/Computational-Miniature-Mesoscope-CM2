@@ -28,7 +28,7 @@ Fluorescence microscopes are indispensable to biology and neuroscience. The need
 
 2) Algorithm
 
-
+After downloading the pre-trained weights file, put it under the root directory and run demo.py.
 
 ## License
 This project is licensed under the terms of the MIT license. see the [LICENSE](LICENSE) file for details
