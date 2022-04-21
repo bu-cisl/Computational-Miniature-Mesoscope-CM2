@@ -12,8 +12,11 @@ If you find this project useful in your research, please consider citing our pap
 Fluorescence microscopes are indispensable to biology and neuroscience. The need for recording in freely behaving animals has further driven the development in miniaturized microscopes (miniscopes). However, conventional microscopes/miniscopes are inherently constrained by their limited space-bandwidth product, shallow depth of field (DOF), and inability to resolve three-dimensional (3D) distributed emitters. Here, we present a Computational Miniature Mesoscope (CM2) that overcomes these bottlenecks and enables single-shot 3D imaging across an 8 mm by 7 mm field of view and 2.5-mm DOF, achieving 7-μm lateral resolution and better than 200-μm axial resolution. The CM2 features a compact lightweight design that integrates a microlens array for imaging and a light-emitting diode array for excitation. Its expanded imaging capability is enabled by computational imaging that augments the optics by algorithms. We experimentally validate the mesoscopic imaging capability on 3D fluorescent samples. We further quantify the effects of scattering and background fluorescence on phantom experiments.
 
 <p align="center">
-  <img src="/Images/1.PNG">
+  <img src="/Images/Cover.PNG">
 </p>
+
+
+### Device Overview
 
 
 ### How to use
@@ -22,13 +25,15 @@ Fluorescence microscopes are indispensable to biology and neuroscience. The need
    After downloading the "Zemax_models" folder, put "CM2_V1_opensource.CFG" under the directory "Zemax\Configs", put "cm2_coating_profiles_ver2.DAT" under the      directory "Zemax\Coatings", put "gfp_emission.spcd" and "led_spectrum_interp.spcd" under the directory "Zemax\Objects\Sources\Spectrum Files", put "led_housing.stl",  "mla_housing.stl", and "zemax_mla_aperture.stl" under the directory "Zemax\Objects\CAD Files", and run "CM2_V1_opensource.zos".
 
 <p align="center">
-  <img src="/Images/2.PNG">
+  <img src="/Images/Zemax.PNG">
 </p>
-
 
 2) Algorithm
 
-   After downloading the "Algorithm" folder, put run "cm2_related_code.m" directly.
+   After downloading the "Algorithm" folder, put run "cm2_related_code.m" directly.https://drive.google.com/file/d/1MW6liNOpMEB0YuiA4DNhHl6Y1vjxGELc/view?usp=sharing
 
+
+### Contact
+For further information, please contact grhu@bu.edu or leitian@bu.edu
 ## License
 This project is licensed under the terms of the MIT license. see the [LICENSE](LICENSE) file for details
