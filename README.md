@@ -30,7 +30,7 @@ Fluorescence microscopes are indispensable to biology and neuroscience. The need
 
 2) Algorithm
 
-   After downloading the "Algorithm" folder, put the [down-sampled 3d psfs](https://drive.google.com/file/d/1MW6liNOpMEB0YuiA4DNhHl6Y1vjxGELc/view?usp=sharing) run "cm2_related_code.m" directly.
+   After downloading the "Algorithm" folder, put the [down-sampled 3d psfs](https://drive.google.com/file/d/1MW6liNOpMEB0YuiA4DNhHl6Y1vjxGELc/view?usp=sharing) under the root directory and run "cm2_related_code.m" directly.
 
 
 ### Contact
