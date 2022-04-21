@@ -28,7 +28,7 @@ Fluorescence microscopes are indispensable to biology and neuroscience. The need
 
 2) Algorithm
 
-After downloading the "Algorithm" folder, run "cm2_related_code.m" directly.
+   After downloading the "Algorithm" folder, run "cm2_related_code.m" directly.
 
 ## License
 This project is licensed under the terms of the MIT license. see the [LICENSE](LICENSE) file for details
