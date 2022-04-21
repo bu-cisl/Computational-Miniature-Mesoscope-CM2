@@ -27,7 +27,7 @@ The directory 'CAD_models' contains the CAD files of the CM<sup>2</sup>'s LED ho
 
 ### 2) Zemax model
 
-To use the Zemax model, after cloning this repository, copy the coating file "cm2_coating_profiles_ver2.DAT" to the directory "Zemax\Coatings\", copy the spectra files "gfp_emission.spcd" and "led_spectrum_interp.spcd" to the directory "Zemax\Objects\Sources\Spectrum Files\", copy the CAD files "led_housing.stl",  "mla_housing.stl", and "zemax_mla_aperture.stl" to the directory "Zemax\Objects\CAD Files\", and then open "CM2_V1_opensource.zos" in Zemax to view the CM<sup>2</sup> design and ray tracing results. A pre-rendered ray tracing data can be downloaded [**here**](GUORONG put the google drive link of the ZDA file here).
+To use the Zemax model, after cloning this repository, copy the coating file "cm2_coating_profiles_ver2.DAT" to the directory "Zemax\Coatings\", copy the spectra files "gfp_emission.spcd" and "led_spectrum_interp.spcd" to the directory "Zemax\Objects\Sources\Spectrum Files\", copy the CAD files "led_housing.stl",  "mla_housing.stl", and "zemax_mla_aperture.stl" to the directory "Zemax\Objects\CAD Files\", and then open "CM2_V1_opensource.zos" in Zemax to view the CM<sup>2</sup> design and ray tracing results. A pre-rendered ray tracing data can be downloaded [**here**](https://drive.google.com/file/d/1mZIhLjmX2ATNk1ePvsdlHQWoq4ZxB-wX/view?usp=sharing).
 
 <p align="center">
   <img src="/Images/Zemax.PNG"width=800>
