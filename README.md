@@ -20,15 +20,20 @@ Fluorescence microscopes are indispensable to biology and neuroscience. The need
 
 
 ### How to use
-1) Zemax simulation
+1) Hardware assemble
+  The directory 'CAD_models' contains the CAD files of the CM2's LED housing and microlens array housing. Both CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides an assembly of the CM2 device shown as below (note that the sensor is not to-scale).
+<p align="center">
+  <img src="/Images/CAD.PNG"width=800>
+</p>
+2) Zemax simulation
 
-   After downloading the "Zemax_models" folder, put "CM2_V1_opensource.CFG" under the directory "Zemax\Configs", put "cm2_coating_profiles_ver2.DAT" under the      directory "Zemax\Coatings", put "gfp_emission.spcd" and "led_spectrum_interp.spcd" under the directory "Zemax\Objects\Sources\Spectrum Files", put "led_housing.stl",  "mla_housing.stl", and "zemax_mla_aperture.stl" under the directory "Zemax\Objects\CAD Files", and run "CM2_V1_opensource.zos".
+  After downloading the "Zemax_models" folder, put "CM2_V1_opensource.CFG" under the directory "Zemax\Configs", put "cm2_coating_profiles_ver2.DAT" under the      directory "Zemax\Coatings", put "gfp_emission.spcd" and "led_spectrum_interp.spcd" under the directory "Zemax\Objects\Sources\Spectrum Files", put "led_housing.stl",  "mla_housing.stl", and "zemax_mla_aperture.stl" under the directory "Zemax\Objects\CAD Files", and run "CM2_V1_opensource.zos".
 
 <p align="center">
   <img src="/Images/Zemax.PNG"width=800>
 </p>
 
-2) Algorithm
+3) Algorithm
 
    After downloading the "Algorithm" folder, put the [down-sampled 3d psfs](https://drive.google.com/file/d/1MW6liNOpMEB0YuiA4DNhHl6Y1vjxGELc/view?usp=sharing) under the root directory and run "cm2_related_code.m" directly.
 
