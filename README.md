@@ -4,39 +4,42 @@ In this repository, we provide: 1) the hardware design of the CM<sup>2</sup> dev
 
 
 
-### Citation
+## Citation
 If you find this project useful in your research, please consider citing our paper:
 
 [**Yujia Xue, Ian G. Davison, David A. Boas, and Lei Tian. "Single-shot 3D wide-field fluorescence imaging with a Computational Miniature Mesoscope." Science advances 6, no. 43 (2020): eabb7508.**](https://www.science.org/doi/full/10.1126/sciadv.abb7508)
 
 
-### Abstract
+## Abstract
 Fluorescence microscopes are indispensable to biology and neuroscience. The need for recording in freely behaving animals has further driven the development in miniaturized microscopes (miniscopes). However, conventional microscopes/miniscopes are inherently constrained by their limited space-bandwidth product, shallow depth of field (DOF), and inability to resolve three-dimensional (3D) distributed emitters. Here, we present a Computational Miniature Mesoscope (CM<sup>2</sup>) that overcomes these bottlenecks and enables single-shot 3D imaging across an 8 mm by 7 mm field of view and 2.5-mm DOF, achieving 7-μm lateral resolution and better than 200-μm axial resolution. The CM<sup>2</sup> features a compact lightweight design that integrates a microlens array for imaging and a light-emitting diode array for excitation. Its expanded imaging capability is enabled by computational imaging that augments the optics by algorithms. We experimentally validate the mesoscopic imaging capability on 3D fluorescent samples. We further quantify the effects of scattering and background fluorescence on phantom experiments.
 
 <p align="center">
   <img src="/Images/Cover.PNG">
 </p>
 
-### How to use
-1) Hardware assemble
-  The directory 'CAD_models' contains the CAD files of the CM<sup>2</sup>'s LED housing and microlens array housing. Both CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides an assembly of the CM<sup>2</sup> device shown as below (note that the sensor is not to-scale).
+## How to use
+### 1) Hardware design
+
+The directory 'CAD_models' contains the CAD files of the CM<sup>2</sup>'s LED housing and microlens array housing. Both CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides an assembly of the CM<sup>2</sup> device shown as below (note that the sensor is not to-scale).
 <p align="center">
   <img src="/Images/CAD.PNG"width=600>
 </p>
-2) Zemax simulation
 
-  After downloading the "Zemax_models" folder, put "CM2_V1_opensource.CFG" under the directory "Zemax\Configs", put "cm2_coating_profiles_ver2.DAT" under the      directory "Zemax\Coatings", put "gfp_emission.spcd" and "led_spectrum_interp.spcd" under the directory "Zemax\Objects\Sources\Spectrum Files", put "led_housing.stl",  "mla_housing.stl", and "zemax_mla_aperture.stl" under the directory "Zemax\Objects\CAD Files", and run "CM2_V1_opensource.zos".
+### 2) Zemax model
+
+To use the Zemax model, after cloning this repository, copy the coating file "cm2_coating_profiles_ver2.DAT" to the directory "Zemax\Coatings\", copy the spectra files "gfp_emission.spcd" and "led_spectrum_interp.spcd" to the directory "Zemax\Objects\Sources\Spectrum Files\", copy the CAD files "led_housing.stl",  "mla_housing.stl", and "zemax_mla_aperture.stl" to the directory "Zemax\Objects\CAD Files\", and then open "CM2_V1_opensource.zos" in Zemax to view the CM<sup>2</sup> design and ray tracing results. A pre-rendered ray tracing data can be downloaded [**here**](GUORONG put the google drive link of the ZDA file here).
 
 <p align="center">
   <img src="/Images/Zemax.PNG"width=800>
 </p>
 
-3) Algorithm
+### 3) 3D reconstruction algorithm
 
-   After downloading the "Algorithm" folder, put the [down-sampled 3d psfs](https://drive.google.com/file/d/1MW6liNOpMEB0YuiA4DNhHl6Y1vjxGELc/view?usp=sharing) under the root directory and run "cm2_related_code.m" directly.
+The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<sup>2</sup> 3D reconstruction pipeline on a simulated measurement using [down-sampled PSFs](https://drive.google.com/file/d/1MW6liNOpMEB0YuiA4DNhHl6Y1vjxGELc/view?usp=sharing). A full-scale experimental measurement is also provided in TBD, which requires large system memory to run.
 
 
-### Contact
+
+## Contact
 For further information, please feel free to contact Guorong Hu (grhu@bu.edu) or Prof. Lei Tian (leitian@bu.edu).
 
 ## License
