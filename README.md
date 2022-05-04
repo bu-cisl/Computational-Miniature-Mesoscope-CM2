@@ -43,10 +43,12 @@ The part list of all optical and electronic components used in the CM<sup>2</sup
 
 To use the Zemax models, after cloning this repository, copy the coating file "cm2_coating_profiles_ver2.DAT" to the directory "Zemax\Coatings\", copy the spectra files "gfp_emission.spcd" and "led_spectrum_interp.spcd" to the directory "Zemax\Objects\Sources\Spectrum Files\", copy the CAD files (end with '.stl') to the directory "Zemax\Objects\CAD Files\", and then open "CM2_V1_opensource.zos" or "CM2_V2_opensource.zos" in Zemax to view the CM<sup>2</sup> design and ray tracing results. Pre-rendered ray tracing data can be downloaded [**here**](https://drive.google.com/file/d/1mZIhLjmX2ATNk1ePvsdlHQWoq4ZxB-wX/view?usp=sharing).
 
+#### CM<sup>2</sup> V1 Zemax model:
 <p align="center">
   <img src="/Images/Zemax.PNG"width=800>
 </p>
 
+#### CM<sup>2</sup> V2 Zemax model:
 <p align="center">
   <img src="/Images/zemax_v2.png"width=800>
 </p>
@@ -62,7 +64,7 @@ The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<
 coming soon...
 
 ## Contact
-For further information, please feel free to contact Guorong Hu (grhu@bu.edu) or Prof. Lei Tian (leitian@bu.edu).
+For further information, please feel free to contact us: Guorong Hu (grhu@bu.edu), Qianwan Yang (yaw@bu.edu), and Prof. Lei Tian (leitian@bu.edu).
 
 ## License
 This project is licensed under the terms of the MIT license. see the [LICENSE](LICENSE) file for details
