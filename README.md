@@ -29,28 +29,39 @@ Computational Miniature Mesoscope (CM<sup>2</sup>) is a recently developed compu
 ## How to use
 ### 1) Hardware design
 
-The directory 'CAD_models' contains the CAD files of the CM<sup>2</sup>'s LED housing and microlens array housing. Both CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides an assembly of the CM<sup>2</sup> device shown as below (note that the sensor is not to-scale).
+The directory 'CAD_models' contains the CAD files of the CM<sup>2</sup>'s V1 and V2 systems, including the LED housing, microlens array housing, LED base plate and the freefrom collimator. All CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides an assembly of the CM<sup>2</sup> systems shown as below (note that the sensor is not to-scale).
+<p align="center">
+  <img src="/Images/CAD.PNG"width=600>
+</p>
 <p align="center">
   <img src="/Images/CAD.PNG"width=600>
 </p>
 
-The part list of all optical and electronic components used in the CM<sup>2</sup> prototype can be found [**here**](https://docs.google.com/spreadsheets/d/1yO0x0pHvZYl-6WYT2bZiUERogTGQaifCt07Zwj_Rsxw/edit?usp=sharing).
+The part list of all optical and electronic components used in the CM<sup>2</sup> prototypes can be found [**here**](https://docs.google.com/spreadsheets/d/1yO0x0pHvZYl-6WYT2bZiUERogTGQaifCt07Zwj_Rsxw/edit?usp=sharing).
 
 ### 2) Zemax model
 
-To use the Zemax model, after cloning this repository, copy the coating file "cm2_coating_profiles_ver2.DAT" to the directory "Zemax\Coatings\", copy the spectra files "gfp_emission.spcd" and "led_spectrum_interp.spcd" to the directory "Zemax\Objects\Sources\Spectrum Files\", copy the CAD files "led_housing.stl",  "mla_housing.stl", and "zemax_mla_aperture.stl" to the directory "Zemax\Objects\CAD Files\", and then open "CM2_V1_opensource.zos" in Zemax to view the CM<sup>2</sup> design and ray tracing results. A pre-rendered ray tracing data can be downloaded [**here**](https://drive.google.com/file/d/1mZIhLjmX2ATNk1ePvsdlHQWoq4ZxB-wX/view?usp=sharing).
+To use the Zemax models, after cloning this repository, copy the coating file "cm2_coating_profiles_ver2.DAT" to the directory "Zemax\Coatings\", copy the spectra files "gfp_emission.spcd" and "led_spectrum_interp.spcd" to the directory "Zemax\Objects\Sources\Spectrum Files\", copy the CAD files (end with '.stl') to the directory "Zemax\Objects\CAD Files\", and then open "CM2_V1_opensource.zos" or "CM2_V2_opensource.zos" in Zemax to view the CM<sup>2</sup> design and ray tracing results. Pre-rendered ray tracing data can be downloaded [**here**](https://drive.google.com/file/d/1mZIhLjmX2ATNk1ePvsdlHQWoq4ZxB-wX/view?usp=sharing).
 
 <p align="center">
   <img src="/Images/Zemax.PNG"width=800>
 </p>
 
-### 3) 3D reconstruction algorithm
+<p align="center">
+  <img src="/Images/zemax_v2.png"width=800>
+</p>
 
+### 3) 3D reconstruction algorithms
+
+## Model-based 3D deconvolution
 The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<sup>2</sup> 3D reconstruction pipeline on a simulated measurement using [down-sampled PSFs](https://drive.google.com/file/d/1MW6liNOpMEB0YuiA4DNhHl6Y1vjxGELc/view?usp=sharing). A full-scale experimental measurement is also provided under the "Algorithm" direcory, which requires large system memory to run. The GIF file below shows the flying-through of a reconstructed 3D object (a fluorescent fiber sample) from an experimental measurement.
 
 <p align="center">
   <img src="/Images/example_recon.gif"width=600>
 </p>
+
+## CM2Net: fast and near-isotropic 3D reconstruction
+coming soon...
 
 ## Contact
 For further information, please feel free to contact Guorong Hu (grhu@bu.edu) or Prof. Lei Tian (leitian@bu.edu).
