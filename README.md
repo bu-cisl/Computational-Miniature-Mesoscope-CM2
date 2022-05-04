@@ -53,14 +53,14 @@ To use the Zemax models, after cloning this repository, copy the coating file "c
 
 ### 3) 3D reconstruction algorithms
 
-## Model-based 3D deconvolution
+#### Model-based 3D deconvolution
 The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<sup>2</sup> 3D reconstruction pipeline on a simulated measurement using [down-sampled PSFs](https://drive.google.com/file/d/1MW6liNOpMEB0YuiA4DNhHl6Y1vjxGELc/view?usp=sharing). A full-scale experimental measurement is also provided under the "Algorithm" direcory, which requires large system memory to run. The GIF file below shows the flying-through of a reconstructed 3D object (a fluorescent fiber sample) from an experimental measurement.
 
 <p align="center">
   <img src="/Images/example_recon.gif"width=600>
 </p>
 
-## CM2Net: fast and near-isotropic 3D reconstruction
+#### CM2Net: fast and near-isotropic 3D reconstruction
 coming soon...
 
 ## Contact
