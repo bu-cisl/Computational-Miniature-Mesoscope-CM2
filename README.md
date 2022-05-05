@@ -41,7 +41,7 @@ The part list of all optical and electronic components used in the CM<sup>2</sup
 
 ### 2) Zemax model
 
-To use the Zemax models, after cloning this repository, copy the coating file "cm2_coating_profiles_ver2.DAT" to the directory "Zemax\Coatings\", copy the spectra files "gfp_emission.spcd" and "led_spectrum_interp.spcd" to the directory "Zemax\Objects\Sources\Spectrum Files\", copy the CAD files (end with '.stl') to the directory "Zemax\Objects\CAD Files\", and then open "CM2_V1_opensource.zos" or "CM2_V2_opensource.zos" in Zemax to view the CM<sup>2</sup> design and ray tracing results. Pre-rendered ray tracing data can be downloaded [**here**](https://drive.google.com/file/d/1mZIhLjmX2ATNk1ePvsdlHQWoq4ZxB-wX/view?usp=sharing).
+To use the Zemax models, after cloning this repository, copy the coating file "cm2_coating_profiles_ver2.DAT" to the directory "Zemax\Coatings\", copy the spectra files "gfp_emission.spcd" and "led_spectrum_interp.spcd" to the directory "Zemax\Objects\Sources\Spectrum Files\", copy the CAD files (end with '.stl') to the directory "Zemax\Objects\CAD Files\", and then open "CM2_V1_opensource.zos" or "CM2_V2_opensource.zos" in Zemax to view the CM<sup>2</sup> design and ray tracing results. Pre-rendered ray tracing data can be downloaded [**here**](https://drive.google.com/drive/folders/10xuGhUDethVntPEySfjDurRVyuz1iKvr?usp=sharing).
 
 #### CM<sup>2</sup> V1 Zemax model:
 <p align="center">
@@ -54,7 +54,7 @@ To use the Zemax models, after cloning this repository, copy the coating file "c
 </p>
 
 ### 3) Model-based 3D deconvolution
-The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<sup>2</sup> 3D reconstruction pipeline on a simulated measurement using [down-sampled PSFs](https://drive.google.com/file/d/1MW6liNOpMEB0YuiA4DNhHl6Y1vjxGELc/view?usp=sharing). A full-scale experimental measurement is also provided under the "Algorithm" direcory, which requires large system memory to run. The GIF file below shows the flying-through of a reconstructed 3D object (a fluorescent fiber sample) from an experimental measurement.
+The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<sup>2</sup> 3D reconstruction pipeline on a simulated measurement using [down-sampled PSFs](https://drive.google.com/drive/folders/10xuGhUDethVntPEySfjDurRVyuz1iKvr?usp=sharing). A full-scale experimental measurement is also provided under the "Algorithm" direcory, which requires large system memory to run. The GIF file below shows the flying-through of a reconstructed 3D object (a fluorescent fiber sample) from an experimental measurement.
 
 <p align="center">
   <img src="/Images/example_recon.gif"width=600>
@@ -62,6 +62,7 @@ The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<
 
 ### 4）CM2Net: fast and near-isotropic 3D reconstruction
 coming soon...
+(https://drive.google.com/drive/folders/10xuGhUDethVntPEySfjDurRVyuz1iKvr?usp=sharing)
 
 ## Contact
 For further information, please feel free to contact us: Guorong Hu (grhu@bu.edu), Qianwan Yang (yaw@bu.edu), and Prof. Lei Tian (leitian@bu.edu).
