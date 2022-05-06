@@ -60,7 +60,7 @@ The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<
   <img src="/Images/example_recon.gif"width=600>
 </p>
 
-### 4）CM<sup>2</sup>2Net: fast and near-isotropic 3D reconstruction
+### 4）CM<sup>2</sup>Net: fast and near-isotropic 3D reconstruction
 #### Install dependencies:
 The CM<sup>2</sup>Net is implemented in Python 3.7 with TensorFlow 2.3.
 #### Demo:
