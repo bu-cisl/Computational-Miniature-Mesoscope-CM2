@@ -64,7 +64,7 @@ The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<
 #### Install dependencies:
 The CM<sup>2</sup>Net is implemented in Python 3.7 with TensorFlow 2.3.
 #### Demo:
-We provide an example of how to use the trained cm<sup>2</sup>net for fast and robust 3D reconstruction on cm<sup>2</sup> measurement. The script “cm2_models.py” and "pred_cm2net.py" in the "Algorithm/cm2net" folder provides the deep learning model and the inference code. The pretrained model, sample measurement and ground truth volume can be found in [cm2net data](https://drive.google.com/drive/folders/10xuGhUDethVntPEySfjDurRVyuz1iKvr?usp=sharing), which requires large system memory to run. The GIF file below shows the reconstructed 3D volume for the sample measurement.
+We provide an example of how to use the trained CM<sup>2</sup>net for fast and robust 3D reconstruction on CM<sup>2</sup> measurement. The script “cm2_models.py” and "pred_cm2net.py" in the "Algorithm/cm2net" folder provides the deep learning model and the inference code. The pretrained model, sample measurement and ground truth volume can be found in [cm2net data](https://drive.google.com/drive/folders/10xuGhUDethVntPEySfjDurRVyuz1iKvr?usp=sharing), which requires large system memory to run. The GIF file below shows the reconstructed 3D volume for the sample measurement.
 
 <p align="center">
   <img src="/Images/cm2net_recon.gif"width=600>
