@@ -31,10 +31,10 @@ Computational Miniature Mesoscope (CM<sup>2</sup>) is a recently developed compu
 
 The directory 'CAD_models' contains the CAD files of the CM<sup>2</sup>'s V1 and V2 systems, including the LED housing, microlens array housing, LED base plate and the freefrom collimator. All CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides an assembly of the CM<sup>2</sup> systems shown as below (note that the sensor is not to-scale).
 <p align="center">
-  <img src="/Images/CAD.PNG"width=600>
+  <img src="/Images/CAD_V1.PNG"width=600>
 </p>
 <p align="center">
-  <img src="/Images/CAD.PNG"width=600>
+  <img src="/Images/CAD_V2.PNG"width=600>
 </p>
 
 The part list of all optical and electronic components used in the CM<sup>2</sup> prototypes can be found [**here**](https://docs.google.com/spreadsheets/d/1yO0x0pHvZYl-6WYT2bZiUERogTGQaifCt07Zwj_Rsxw/edit?usp=sharing).
