@@ -1,7 +1,6 @@
 
 *.hdf5
 *.tif
-Algorithm/cm2net/pred_cm2net.py
 Algorithm/cm2net/pred_cm2net_80layers.py
 Algorithm/cm2net/pred_cm2net_fntn.py
 Algorithm/cm2net/train_cm2net.py
