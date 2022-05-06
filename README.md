@@ -1,6 +1,6 @@
 # Computational Miniature Mesoscope (CM<sup>2</sup>)
 This is an open source repository of the Computational Miniature Mesoscope ([**CM<sup>2</sup>**](https://www.science.org/doi/full/10.1126/sciadv.abb7508)) project in the Computational Imaging Systems Lab ([**CISL**](https://sites.bu.edu/tianlab/)) at Boston University. We aim to develop next-generation “wearable” computational fluorescence microscope that achieves a centimeter-scale field-of-view (FOV) and micron-scale resolution with single-shot 3D imaging capability.
-In this repository, we provide: 1) the hardware design of the CM<sup>2</sup> device including 3D printable CAD files of the LED, microlens array housing, and 3D printable freeform illuminators; 2) the Zemax models of the CM<sup>2</sup> system including the ZMX files, spectra data and coating profile; 3) the reconstruction algorithms: ADMM-based 3D deconvolution algorithm with calibrated 3D PSFs and sample measurements, and pre-trained CM2Net for fast, near-isotropic 3D reconstructions.
+In this repository, we provide: 1) the hardware design of the CM<sup>2</sup> device including 3D printable CAD files of the LED, microlens array housing, and 3D printable freeform illuminators; 2) the Zemax models of the CM<sup>2</sup> system including the ZMX files, spectra data and coating profile; 3) the reconstruction algorithms: ADMM-based 3D deconvolution algorithm with calibrated 3D PSFs and sample measurements, and pre-trained CM<sup>2</sup>Net for fast, near-isotropic 3D reconstructions.
 
 
 
@@ -60,7 +60,7 @@ The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<
   <img src="/Images/example_recon.gif"width=600>
 </p>
 
-### 4）CM2Net: fast and near-isotropic 3D reconstruction
+### 4）CM<sup>2</sup>2Net: fast and near-isotropic 3D reconstruction
 #### Install dependencies:
 The CM<sup>2</sup>Net is implemented in Python 3.7 with TensorFlow 2.3.
 #### Demo:
