@@ -9,7 +9,9 @@ If you find this project useful in your research, please consider citing our pap
 
 [**Yujia Xue, Ian G. Davison, David A. Boas, and Lei Tian. "Single-shot 3D wide-field fluorescence imaging with a Computational Miniature Mesoscope" Science advances 6, no. 43 (2020): eabb7508.**](https://www.science.org/doi/full/10.1126/sciadv.abb7508)
 
-[**Yujia Xue, Qianwan Yang, Guorong Hu, Kehan Guo, and Lei Tian. "Computational Miniature Mesoscope V2: A deep learning-augmented miniaturized microscope for single-shot 3D high-resolution fluorescence imaging" arXiv: 2205.00123 (2022).**](https://arxiv.org/abs/2205.00123)
+
+
+[**Yujia Xue, Qianwan Yang, Guorong Hu, Kehan Guo, and Lei Tian, "Deep-learning-augmented computational miniature mesoscope," Optica 9, 1009-1021 (2022).**](https://opg.optica.org/optica/fulltext.cfm?uri=optica-9-9-1009&id=497528)
 
 
 ## CM<sup>2</sup> V1
